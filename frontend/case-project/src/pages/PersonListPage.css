@@ -1,0 +1,24 @@
+.person-list-container {
+    margin: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 sütunlu bir grid */
+    gap: 5px; 
+  }
+  
+  .grid-item {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  .grid-item-password {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: transparent;
+    background-color: white;
+    cursor: pointer;
+  }
+  .grid-item-password:hover {
+    color: initial;
+  }
